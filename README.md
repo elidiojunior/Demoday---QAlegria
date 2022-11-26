@@ -44,59 +44,59 @@ Foi utilizado a **matriz de riscos** como ferramenta para nos auxiliar na visual
 
  ### 1 - Realizar Cadastro de Usuário
  #### Cenário - Criar um novo usuário com sucesso
- **Objetivo:** Cadastrar com sucesso um novo usuário
- **Prioridade:** Alta
+ **Objetivo:** Cadastrar com sucesso um novo usuário <br/>
+ **Prioridade:** Alta <br/>
  **Resultado Esperado:** O sistema deve mostrar ao agora, usuário, a seguinte mensagem: "Usuário inserido com sucesso" e direcionar o usuário para a tela de login
  
  #### Cenário - Tentar criar um usuário já cadastrado
- **Objetivo:** Não realizar cadastro com email já cadastrado
- **Prioridade:** Média
+ **Objetivo:** Não realizar cadastro com email já cadastrado <br/>
+ **Prioridade:** Média <br/>
  **Resultado Esperado:** Sistema deve mostrar um mensagem de erro, "Endereço de email já utilizado e não deve permitir a criação de um novo usuário
  
 ### 2 - Realizar Login de Usuário
  #### Cenário - Login com sucesso
-**Objetivo:** Acessar o sistema
-**Prioridade:** Alta
+**Objetivo:** Acessar o sistema <br/>
+**Prioridade:** Alta <br/>
 **Resultado Esperado:** O usuário deve conseguir realizar o login, visualizar na tela uma mensagem de boas vindas e ver a tela principal da ferramenta.
 
  #### Cenário - Usuário tentar realizar login sem está cadastrado
- **Objetivo:** Acessar o sistema sem está cadastrado
- **Prioridade:** Alta
+ **Objetivo:** Acessar o sistema sem está cadastrado <br/>
+ **Prioridade:** Alta <br/>
  **Resultado Esperado:** Sistema não deve permitir o login do usuário caso não esteja cadastrado.
  
 ### 3 - Adicionar Contas
  #### Cenário - Adicionar conta
- **Objetivo:** Realizar a criação de uma conta com sucesso
- **Prioridade:** Baixa
+ **Objetivo:** Realizar a criação de uma conta com sucesso <br/>
+ **Prioridade:** Baixa <br/>
  **Resultado Esperado:** Sistema deve criar uma conta para movimentações.
  
  #### Cenário - Adicionar conta sem sucesso
- **Objetivo:** Realizar a criação de uma conta com o mesmo nome de uma conta anterior
- **Prioridade:** Média
+ **Objetivo:** Realizar a criação de uma conta com o mesmo nome de uma conta anterior <br/>
+ **Prioridade:** Média <br/>
  **Resultado Esperado:** Sistema não deve permitir a criação de uma conta com o mesmo nome já cadastrado anteriormente.
   
  ### 4 - Excluir Contas
  #### Cenário - Excluir conta
- **Objetivo:** Realizar a exclusão de uma conta
- **Prioridade:** Baixa
+ **Objetivo:** Realizar a exclusão de uma conta <br/>
+ **Prioridade:** Baixa <br/>
  **Resultado Esperado:** Sistema deve permitir a exclusão da conta com sucesso.
  
  ### 5 - Criar Movimentação
  #### Cenário - Criar Movimentação
- **Objetivo:** Realizar a criação de uma movimentação atrelada a uma conta criada anteriormente.
- **Prioridade:** Baixa
+ **Objetivo:** Realizar a criação de uma movimentação atrelada a uma conta criada anteriormente <br/>
+ **Prioridade:** Baixa <br/>
  **Resultado Esperado:** Sistema deve realizar a criação de uma movimentação que irá aparecer no Resumo Mensal.
  
  ### 6 - Resumo mensal
  #### Cenário - Excluir movimentação
- **Objetivo:** Realizar a exclusão de movimentação
- **Prioridade:** Alta
+ **Objetivo:** Realizar a exclusão de movimentação <br/>
+ **Prioridade:** Alta <br/>
  **Resultado Esperado:** Sistema deve realizar a exclusão da movimentação escolhida.
  
  ### 7 - Realizar Reset
  #### Cenário - Reset com sucesso
- **Objetivo:** Realizar o reset dos dados das contas
- **Prioridade:** Alta
+ **Objetivo:** Realizar o reset dos dados das contas <br/>
+ **Prioridade:** Alta <br/>
  **Resultado Esperado:** Apresenta falha na aplicação, pois ao clicar no botão do reset, espera-se que os dados das contas da tela do home sejam zerados ao serem resetados com sucesso, porém os dados permanecem os mesmos sem nenhuma alteração apesar de apresentar o alerta de sucesso "Dados resetados com sucesso!"
 
 ## Instalação
@@ -110,8 +110,8 @@ Para que seja possível iniciar o projeto, precisa ser realizada a preparação 
     <p align="center">C:\Python27\;C:\Python27\Scripts</p>
 </h5>
 
-- Para verificar se a instalação deu certo, no prompt de comando (cmd) execute: 
-	``python --version``  
+- Para verificar se a instalação deu certo, no prompt de comando (cmd) execute: <br/>
+	``python --version``  <br/>
 	``pip -- version`` 
 			
 #### 2. Instalando o Robot Framework
@@ -247,7 +247,7 @@ Realizar reset dos dados cadastrados
  ```
 
 ## Contribuintes
-Este projeto foi realizado através graças a contribuição das seguintes pessoas: 
+Este projeto foi realizado através da contribuição das seguintes pessoas: 
 
 ![Linkedin Ana Clara](https://media-exp1.licdn.com/dms/image/C5103AQEp1zSam0NJOw/profile-displayphoto-shrink_200_200/0/1517008701546?e=1674691200&v=beta&t=HdKj636g7y-U_0GAI2Xc2kOGl1TCOq5_VC0Mr4pqytc)
 [![Linkedin Badge Ana](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/anaclaraor/)](https://www.linkedin.com/in/anaclaraor/)
