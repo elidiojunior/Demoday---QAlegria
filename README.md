@@ -205,7 +205,7 @@ Adicionar conta com nome já exsitente
 *** Test Cases ***
 Excluir contas criadas
     Dado que acesse a pagina de Listar Contas
-    Quando clico no botão de remover de cada conta
+    Quando clico no botão remover de cada conta
     Então apresenta mensagem Conta removida com sucesso!
  ```
 
@@ -232,7 +232,7 @@ Criar movimentações de receita para cada conta
 *** Test Cases ***
 Excluir Movimentações realizadas
     Dado que acesse a pagina de Resumo Mensal
-    Quando clico no botão de remover movimentação
+    Quando clico no botão remover movimentação
     Então apresenta mensagem Movimentação removida com sucesso!
  ``` 
  
@@ -240,7 +240,6 @@ Excluir Movimentações realizadas
 ```
 *** Test Cases ***
 Realizar reset dos dados cadastrados
-    [Tags]    6_resete
     Dado que acesse a pagina Home
     Quando clicar no botão Reset 
     Então apresenta mensagem Dados resetados com sucesso!
